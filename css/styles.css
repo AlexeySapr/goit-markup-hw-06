@@ -262,12 +262,13 @@ a {
 	background-color: var(--third--text-color);
 }
 
-.modal-close-button:hover {
-	cursor: pointer;
+.close-icon {
+	fill: currentColor;
 }
 
-.close-icon {
-	fill: #000000;
+.modal-close-button:hover {
+	cursor: pointer;
+	color: var(--brand-color);
 }
 
 .filter-button {
