@@ -110,11 +110,14 @@
               <textarea name="comment" id="comment" cols="30" rows="8" placeholder="Введите текст"></textarea>
             </li>
           </ul>
-          <div class="policy">
-            <input type="checkbox" name="agreement" value="true" id="agreement">
-            <label for="agreement">Соглашаюсь с рассылкой и принимаю <a class="policy-link" href="#">Условия
-                договора</a></label>
-          </div>
+          <label class="policy">
+            <input class="checkbox" type="checkbox" name="agreement" value="true">
+            <svg class="checked-icon" width="16" height="15">
+              <use href="./images/studio/sprite/symbol-defs.svg#icon-check1"></use>
+            </svg>
+            <span class="checbox-icon"></span>
+            Соглашаюсь с рассылкой и принимаю <a class="policy-link" href="#">Условия договора</a>
+          </label>
           <button class="modal-submit-button" type="submit">Отправить</button>
         </form>
       </div>
