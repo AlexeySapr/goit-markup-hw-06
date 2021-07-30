@@ -80,6 +80,34 @@
             <use href="./images/studio/sprite/sprite-icons.svg#icon-close"></use>
           </svg>
         </button>
+
+        <form class="modal-form">
+          <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+          <ul class="modal-list">
+            <li class="modal-list-item">
+              <label for="name">Имя</label>
+              <input type="text" name="name" id="name">
+            </li>
+            <li class="modal-list-item">
+              <label for="tel">Телефон</label>
+              <input type="tel" name="tel" id="tel">
+            </li>
+            <li class="modal-list-item">
+              <label for="mail">Почта</label>
+              <input type="email" name="mail" id="mail">
+            </li>
+            <li class="modal-list-item">
+              <label for="comment">Комментарий</label>
+              <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </li>
+            <li class="modal-list-item">
+              <input type="checkbox" name="agreement" value="true" id="agreement">
+              <label for="agreement">Соглашаюсь с рассылкой и принимаю <a class="policy-link" href="#">Условия
+                  договора</a></label>
+            </li>
+          </ul>
+          <button class="modal-submit-button" type="submit">Отправить</button>
+        </form>
       </div>
     </div>
 
