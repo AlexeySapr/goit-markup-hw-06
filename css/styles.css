@@ -256,15 +256,15 @@ input {
 }
 
 .modal {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
 	min-width: 528px;
 	min-height: 581px;
 	background-color: var(--third--text-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
-
-	position: absolute;
-	top: 50%;
-	left: 50%;
 
 	padding: 40px;
 
@@ -310,10 +310,10 @@ input {
 }
 
 .modal-list-item {
+	position: relative;
+
 	display: flex;
 	flex-direction: column;
-
-	position: relative;
 
 	font-weight: 400;
 	font-size: 12px;
