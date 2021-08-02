@@ -392,7 +392,7 @@ input {
 
 .checbox-icon {
 	position: absolute;
-	top: 4px;
+	top: 5px;
 	left: 15px;
 
 	opacity: 1;
@@ -402,7 +402,7 @@ input {
 
 .icon-checked {
 	position: absolute;
-	top: 4px;
+	top: 5px;
 	left: 15px;
 
 	opacity: 0;
