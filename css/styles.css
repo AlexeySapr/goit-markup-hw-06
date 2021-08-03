@@ -174,8 +174,12 @@ input {
 }
 
 .main-section {
-	background-color: var(--secondary-background);
+	padding-top: 200px;
+	padding-bottom: 200px;
 
+	text-align: center;
+
+	background-color: var(--secondary-background);
 	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 		url(../images/studio/main/main-img.jpg);
 	background-repeat: no-repeat;
@@ -183,22 +187,19 @@ input {
 	background-size: contain;
 }
 
-.main-container {
-	width: 696px;
-	padding-top: 200px;
-	padding-bottom: 200px;
-	margin: 0 auto;
-	text-align: center;
-}
-
 .main-title {
+	width: 696px;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--third--text-color);
-	margin-bottom: 30px;
 }
 
 .main-button,
